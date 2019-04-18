@@ -1,0 +1,33 @@
+{
+  "name": "web-go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlinder/web-go.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlinder/web-go/issues"
+  },
+  "homepage": "https://github.com/vlinder/web-go#readme",
+  "dependencies": {
+    "@most/core": "^1.3.4",
+    "@most/dom-event": "^2.0.0",
+    "@most/scheduler": "^1.2.2",
+    "@types/dom-inputevent": "^1.0.4",
+    "most-subject": "^6.0.0",
+    "parcel-bundler": "^1.12.3",
+    "tenuki": "^0.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  }
+}
