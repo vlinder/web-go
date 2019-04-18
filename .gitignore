@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# Parcel cache and build directory?
+/.cache
+/dist
